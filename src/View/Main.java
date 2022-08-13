@@ -27,9 +27,18 @@ public class Main {
         
         Servico corte = new Servico(1, "corte", 30);
         
+        /**
+         * Para acessar o modelo do Serviço basta apontar aqui como uma new Serviço e fazer uso da opção da IDE de 
+         * corrigir o caminho do arquivo, ele aponta automaticamente a variável definida Servico corte = new
+         */
+        
         System.out.println(corte.getDescricao());
         System.out.println(corte.getValor());
         
+        /**
+         * Aqui em cima a gente tá vendo um printt acesando a variável que apontou pro modelo do servico e selecionando 
+         * especificamente um get em descrição e logo a baixo um get no valor.
+         */
         
         Usuario tiago = new Usuario(1, "tiago", 'M', "09/05/1996", "92408407", "tiagoluz.h607@gmail.com", "24578874", "123456", "administrador");
         System.out.println(tiago.getNome());
